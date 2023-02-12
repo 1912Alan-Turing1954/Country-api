@@ -1,0 +1,100 @@
+body {
+    background: rgb(35, 44, 90);
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.space {
+    padding: 5em;
+}
+
+section.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 3em 4em;
+    background-color: #ffffff;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.30em;
+}
+
+.container input {
+    border: none;
+    border-bottom: 1px solid rgb(35, 44, 90);
+    outline: none;
+    color: rgb(35, 44, 90);
+    font-size: 1em;
+}
+
+.container button {
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+    background: rgb(35, 44, 90);
+    color: #ffffff;
+}
+
+.container button:hover {
+    background: gray;
+    transition: all 0.3s ease 0s;
+}
+
+.flag-img {
+    width: 45%;
+    min-width: 7.5em;
+    margin: .5em auto 1em auto;
+    box-shadow: 8px 8px 5px gray;
+}
+
+.flag-img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+#myData {
+    margin-top: 1.25em;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: rgb(35, 44, 90);
+    text-transform: uppercase;
+    letter-spacing: 2PX;
+    margin-bottom: 1.8em;
+    text-shadow: 6px 6px 5px gray;
+}
+
+.data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 600;
+    color: rgb(35, 44, 90);
+}
+
+.container h3 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ff465a;
+}
+
+.links a ion-icon {
+    color: #406bf8;
+    font-size: 50px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
