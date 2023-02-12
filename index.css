@@ -40,7 +40,7 @@ section.main {
     padding: 0.8em 0;
     border: none;
     border-radius: 1.5em;
-    background: rgb(35, 44, 90);
+    background: #406bf8;
     color: #ffffff;
 }
 
@@ -97,4 +97,10 @@ section.main {
     font-size: 50px;
     padding-left: 1em;
     padding-top: 0.5em;
+    transition: transform .5s ease-in-out;
+}
+
+.links a ion-icon:hover {
+    color: #1c51ff;
+    transform: scale(1.2);
 }
