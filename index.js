@@ -21,8 +21,6 @@ searchBtn.addEventListener("click", () => {
         
         function appendData() {
             
-            
-            
             mainContainer.innerHTML = `
             <CENTER>
                 <img src="${data[0].flags.svg}" class="flag-img">
